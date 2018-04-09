@@ -2,15 +2,17 @@
   text-align: center;
 }
 
-body {
-  background-color: #353535;
+html,
+body,
+footer {
+  background: #282425;
 }
 
-p a {color: white}
+p a {color: #707580}
 
 .App-logo {
-  margin-top: 15vh;
-  height: 60vh;
+  margin: 15vh 0 0vh 0;
+  height: 40vh;
 }
 
 .App-title {
