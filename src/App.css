@@ -3,12 +3,11 @@
 }
 
 html,
-body,
-footer {
-  background: #252525;
+body {
+  background: #06bce7;
 }
 
-p a {color: #707580}
+p a {color: #0d1122}
 
 .App-logo {
   margin: 15vh 0 0vh 0;
