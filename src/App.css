@@ -7,10 +7,13 @@ body {
   background: #06bce7;
 }
 
-p a {color: #0d1122}
+p {
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+}
 
 .App-logo {
-  margin: 15vh 0 0vh 0;
+  margin: 10vh 0 5vh 0;
   height: 55vh;
 }
 
@@ -22,3 +25,23 @@ p a {color: #0d1122}
   font-size: large;
 }
 
+.tagline-attributes {
+  margin: 0 10rem;
+}
+
+@media screen and (max-width: 1200px) {
+  .tagline-attributes {
+    margin: 0 5rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .tagline-attributes {
+    margin: 0 2.5rem;
+  }
+}
+
+.tagline-attributes:first-child,
+.tagline-attributes:last-child {
+  margin: 0;
+}
