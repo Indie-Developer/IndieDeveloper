@@ -15,6 +15,7 @@ p {
 .App-logo {
   margin: 10vh 0 5vh 0;
   height: 55vh;
+  max-width: 100vw;
 }
 
 .App-title {
@@ -29,9 +30,37 @@ p {
   margin: 0 10rem;
 }
 
+footer {
+  position: fixed;
+  bottom: 1rem;
+  width: 100vw;
+  text-align: center;
+}
+
 @media screen and (max-width: 1200px) {
   .tagline-attributes {
     margin: 0 5rem;
+  }
+}
+
+@media screen and (orientation: landscape) and (max-width: 800px) {
+  .tagline-attributes {
+    margin: 0 2.5rem;
+  }
+
+  footer {
+    position: absolute;
+    bottom: -6rem;
+  }
+
+  footer p a {
+    font-size: 6px;
+  }
+
+  .App-logo {
+    margin: 5vh 0 2.5vh 0;
+    height: 65vh;
+    max-width: 100vw;
   }
 }
 
@@ -39,9 +68,21 @@ p {
   .tagline-attributes {
     margin: 0 2.5rem;
   }
+
+  footer {
+    position: absolute;
+    bottom: -2rem;
+  }
+
+  .App-logo {
+    margin: 10vh 0 2.5vh 0;
+    height: 45vh;
+    max-width: 100vw;
+  }
 }
 
 .tagline-attributes:first-child,
 .tagline-attributes:last-child {
   margin: 0;
 }
+

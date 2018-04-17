@@ -2,10 +2,6 @@ import React, { Component } from 'react';
 
 const style = {
   footerContainer: {
-    position: 'fixed',
-    bottom: '1rem',
-    width: '100vw',
-    textAlign: 'center',
   },
   paragraph: {
     color: '#ffffff',
